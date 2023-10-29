@@ -2,40 +2,25 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <link rel="stylesheet" href="style.css" />
+    <script type="module" src="index.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Juego del 15</title>
   </head>
-  <body>
-    <section>
-      <div class="fondo">
-        <div class="fila">
-          <input type="button" onclick="" class="tablero">
-          <input type="button" onclick="" class="tablero">
-          <input type="button" onclick="" class="tablero">
-          <input type="button" onclick="" class="tablero">
-        </div>
-        <div class="fila">
-          <input type="button" onclick="" class="tablero">
-          <input type="button" onclick="" class="tablero">
-          <input type="button" onclick="" class="tablero">
-          <input type="button" onclick="" class="tablero">
-        </div>
-        <div class="fila">
-          <input type="button" onclick="" class="tablero">
-          <input type="button" onclick="" class="tablero">
-          <input type="button" onclick="" class="tablero">
-          <input type="button" onclick="" class="tablero">
-        </div>
-        <div class="fila">
-          <input type="button" onclick="" class="tablero">
-          <input type="button" onclick="" class="tablero">
-          <input type="button" onclick="" class="tablero">
-          <input type="button" onclick="" class="tablero">
-        </div>
+  <body id="fondo">
+    <div>
+      <h1 id="titulo">Segundo parcial FrontEnd: Juego del 15</h1>
+      <h2 id="subtitulo">Instrucciones: </h2>
+      <p id="instrucciones">
+        El objetivo del juego es ordenar los números del 1 al 15 en orden ascendente,<br>
+        dejando el espacio en blanco en la última posición. Para mover una pieza,<br>
+        debe estar adyacente al espacio en blanco. Al iniciar el juego, las piezas se<br>
+        mezclan y se colocan en orden aleatorio. Para mover la pieza, utilize las flechas<br>
+        del teclado de su computador. <br>
+      <div id="container">
+        <table id="field"></table>
+        <button id="start">Start</button>
       </div>
-      <input type="button" id="iniciar" value="Iniciar">
-    </section>
+    </div>
   </body>
 </html>
