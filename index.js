@@ -95,7 +95,7 @@ document.addEventListener('keydown', function (event) {
       break;
   }
   draw();
-  if(gameOver()){
+  if(gameOver() && gameStarted){
     setTimeout(function(){
       alert("You won,congrats!");
     }, 1000);
