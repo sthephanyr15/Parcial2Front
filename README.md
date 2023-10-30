@@ -1,6 +1,6 @@
 # Juego del 15
 ### Description
-Developed a game using Vanilla, Javascript, HTML, CSS.
+Developed a game using Vanilla, Javascript, HTML and CSS.
 
 ## Instructions
 1. Clone the repository
